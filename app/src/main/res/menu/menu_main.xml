@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item android:id="@+id/appinfo"
+        android:title="@string/app_info_option"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/light" />
+
+        <item android:id="@+id/go_back"
+            android:title="@string/go_back_option"
+            android:showAsAction="ifRoom|withText"
+            android:orderInCategory="101"
+            android:icon="@drawable/back"
+            />
+
+        <item android:id="@+id/exit_the_app"
+            android:title="@string/options_exit_text"
+            app:showAsAction="ifRoom|withText"
+            android:orderInCategory="102"
+            android:icon="@drawable/off"
+            />
+
+
+
+</menu>

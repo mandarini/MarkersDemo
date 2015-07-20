@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Markers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="options_exit_text">Exit</string>
+    <string name="go_back_option">Back</string>
+    <string name="app_info_option">App Info</string>
+    <string name="map_title">Map</string>
+</resources>
